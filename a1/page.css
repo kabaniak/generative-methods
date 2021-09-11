@@ -1,0 +1,186 @@
+body {
+  background-color: #463333;
+  text-align: center;
+  margin: 0px auto;
+}
+
+main {
+  padding-top:50px;
+}
+h1, h2, h3 {
+	font-family: 'Cinzel Decorative';
+  color: #FFF0F0;
+}
+
+h1 {
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+h3 {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.landscape {
+  margin: 0px auto;
+  width: 800px;
+  height: 400px;
+  background-size: cover;
+  margin-bottom: 20px;
+
+  border: 10px solid #c37d7d;
+
+  background-image: url("https://i.pinimg.com/originals/b7/a3/58/b7a3589ee663a399932797942af94a4b.jpg")
+}
+
+.sectTwo {
+  width: 820px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.assignments {
+  float: left;
+  width: 350px;
+  background-color: #835858;
+  border: 10px solid #c37d7d;
+}
+
+.factGen {
+  float: right;
+  width: 350px;
+  background-color: #835858;
+  border: 10px solid #c37d7d;
+  margin-bottom: 40px;
+}
+
+table, th, td {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+	font-family: 'Lato';
+  color: #FFF0F0;
+  font-size: 14px;
+}
+
+table {
+  text-align: left;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+	font-family: 'Lato';
+  color: #FFF0F0;
+  font-size: 14px;
+}
+
+button{
+  background-color: #835858;
+
+  border: 3px solid #c37d7d;
+  color: #FFF0F0;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.lightrope {
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  margin: -28px 0 0 0;
+  padding: 0px;
+  padding-bottom: 50px;
+  width: 100%
+}
+
+@keyframes flash-1 {
+  0% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+  30% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+  45% {
+    box-shadow: none;
+    background: #d9d9d9;
+  }
+  60% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+}
+@keyframes flash-2 {
+  0% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+  15% {
+    box-shadow: none;
+    background: #d9d9d9;
+  }
+  30% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+}
+@keyframes flash-3 {
+  0% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+  45% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+  60% {
+    box-shadow: none;
+    background: #d9d9d9;
+  }
+  75% {
+    box-shadow: 0px 8px 16px 5px #c37d7d;
+    background: white;
+  }
+}
+
+li {
+  width: 8px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  margin-top: 0px;
+  box-shadow: 0px 8px 16px 5px #c37d7d;
+}
+
+li:nth-child(3n+1){
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: flash-1;
+  animation-duration: 8s;
+}
+
+li:nth-child(3n+2){
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: flash-2;
+  animation-duration: 8s;
+}
+
+li:nth-child(3n){
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: flash-3;
+  animation-duration: 8s;
+}

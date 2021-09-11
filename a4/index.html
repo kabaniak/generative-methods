@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+
+		<!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+ -->
+ 		<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		<title>Katrina Baniak - Particles</title>
+
+
+		<link rel="stylesheet" href="page.css">
+
+
+	<!-- P5 Loaded from a CDN -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.min.js"></script> -->
+
+	<!-- Or P5 loaded locally -->
+	<script src="../../../shared/p5.js"></script>
+
+
+	<script src="vector.js"></script>
+
+	<!-- add your particle code -->
+	<script src="asteroid.js"></script>
+	<script src="astro-field.js"></script>
+	<script src="meteor.js"></script>
+	<script src="lightmap.js"></script>
+	<script src="rocket.js"></script>
+	<script src="spaceMan.js"></script>
+	<script src="satellite.js"></script>
+
+	<!-- My app's code goes last,
+		because it needs to refer to things in the previous two JS files -->
+	<script src="app.js"></script>
+
+
+</head>
+<body>
+
+	<div id="main-column">
+		<h1>But in SPACE</h1>
+
+
+
+		<div id="main">
+
+		</div>
+
+		<div id="controls">
+			<button onclick="paused=!paused">Pause</button>
+			<button onclick="drawMode='asteroid'">Asteroid</button>
+			<button onclick="drawMode='meteor'">Meteors</button>
+			<button onclick="drawMode='spaceMan'">Space Man</button>
+			<button onclick="FLAGS.drawSpaceManDebug=!FLAGS.drawSpaceManDebug">SM Debug</button>
+			<button onclick="FLAGS.drawMeteorDebug=!FLAGS.drawMeteorDebug">M Debug</button>
+			<button onclick="FLAGS.drawAstDebug=!FLAGS.drawAstDebug">A Debug</button>
+		</div>
+	</div>
+
+	<div id="lightmap">
+
+	</div>
+
+</body>
+</html>
