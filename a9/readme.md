@@ -1,5 +1,7 @@
 # Fog Monster
 
+![MaskProject1](https://user-images.githubusercontent.com/56622816/132936965-1de7360f-1621-4d65-8de0-6b0c99a660af.gif)
+
 ### The Mask
 
 This mask is a foggy monster mask. The face of the monster has a gaping mouth filled with sharp teeth, and bright glowing white eyes. The hands of the monster have dark palms and fingers pointed with sharp claws. The bones of the hand are darker making the skin appear translucent. The edges of the face and hands are feathered using alpha values to make it appear as though the monster is emerging from a foggy background.
