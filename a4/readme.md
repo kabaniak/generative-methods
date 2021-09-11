@@ -1,4 +1,7 @@
-# Katrina Baniak - A4
+# Space Particle Simulator
+
+![SpaceParticleSim2](https://user-images.githubusercontent.com/56622816/132936882-b5a9ff86-ccb3-4963-a7f9-42b5659ca4fe.gif)
+
 
 **Particle 1: Asteroids**
 
