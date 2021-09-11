@@ -1,4 +1,6 @@
-# Katrina Baniak - A5
+# Culty Cell Automata
+
+![CellAutomata2](https://user-images.githubusercontent.com/56622816/132936915-2b9cbdc7-83b5-447a-8d9a-eb56ac9bb5a4.gif)
 
 ### Cult recruitment
 
