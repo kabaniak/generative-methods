@@ -1,4 +1,6 @@
-# Katrina Baniak - A5
+# Airport Chat Bot
+
+![ChatBotDemo](https://user-images.githubusercontent.com/56622816/132936903-8b7b4731-a5c4-45bd-b180-03682d0bbd1b.gif)
 
 ### This bot is an airport help desk bot! Here to barely help at all with a smile.
 
