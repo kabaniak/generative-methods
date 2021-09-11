@@ -1,4 +1,6 @@
-# Katrina Baniak - A7
+# Feather Generator
+
+![ArrayOfFloats3](https://user-images.githubusercontent.com/56622816/132936952-d235bcbf-6580-4ce4-9f2a-87be92dd682d.gif)
 
 ### Birds of a Feather
 
